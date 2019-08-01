@@ -231,6 +231,10 @@ body {
     color: black;
 }
 
+.section__text {
+    font-size: 19px;
+}
+
 .img-height {
     height: 280px;
     vertical-align: middle;
