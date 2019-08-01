@@ -230,3 +230,22 @@ body {
     text-decoration: none;
     color: black;
 }
+
+.img-height {
+    height: 290px;
+}
+
+.magazine-link {
+    color: #F72210;
+    font-size: 16px / 26px;
+}
+
+.magazine-span {
+    color: white;
+    background-color: #f72210;
+    padding: 2px 5px;
+}
+
+.magazine__title {
+    font-size: 20px;
+}
