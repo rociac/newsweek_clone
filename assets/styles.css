@@ -27,6 +27,23 @@ body {
     font-weight: bold;
 }
 
+.overlay-image {
+    width: 70px;
+    height: 52px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color: #e9212e;
+}
+}
+
 .title {
     color: rgba(3, 3, 3, 0.4);
     font-size: 16px
@@ -269,4 +286,15 @@ body {
 .magazine__title {
     font-size: 20px;
     line-height: 1;
+}
+
+.editor {
+    line-height: 1;
+}
+.slideshows {
+    line-height: 1;
+}
+
+.lh {
+    line-height: 1.3;
 }
