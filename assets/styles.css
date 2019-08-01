@@ -295,6 +295,24 @@ body {
     line-height: 1;
 }
 
-.lh {
+.lh-2 {
     line-height: 1.3;
+}
+
+.lh-1 {
+    line-height: 1;
+}
+
+.categories__header {
+    color: #F72210;
+    font-size: 22px;
+}
+
+.categories__news:first-of-type {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+.categories__text {
+    font-size: 22px;
 }
