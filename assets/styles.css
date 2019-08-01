@@ -9,6 +9,7 @@ body {
 }
 
 .section__header {
+    color: rgba(3, 3, 3, 0.4);
     font-size: 1rem;
 }
 
@@ -45,7 +46,6 @@ body {
 }
 
 .title {
-    color: rgba(3, 3, 3, 0.4);
     font-size: 16px
 }
 
@@ -236,6 +236,24 @@ body {
     color: white;
 }
 
+.btn-red {
+    background-color: #f72210;
+    color: white;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    padding: 6px 6px 6px 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-red:hover {
+    background-color:#de1f0e;
+    text-decoration: none;
+    color: white;
+}
+
 .news__text {
     display: block;
     color: black;
@@ -315,4 +333,12 @@ body {
 
 .categories__text {
     font-size: 22px;
+}
+
+.subscribe__box {
+    background-color: #f4f5f6;
+}
+
+.footer__header img {
+    width: 15rem;
 }
