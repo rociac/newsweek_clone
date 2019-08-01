@@ -1,12 +1,523 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
     <title>Newsweek Clone</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="header__top">
+        <p>Wed, Jul 24</p>
+        <img src="" alt="Newsweek logo" />
+        <div>
+          <a href="#">Sign in</a>
+          <a href="#">Subscribe ></a>
+        </div>
+      </div>
+
+      <nav class="header__bottom">
+        <ul>
+          <li><a href="#">U.S.</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Tech & Science</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Opinion</a></li>
+          <li><a href="#">Vantage</a></li>
+          <li><input type="search" placeholder="Search" /></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <!-- NEWS SECTION -->
+      <div class="row p-3">
+        <div class="col">
+          <h4 class="title font-weight-bold text-uppercase section__header">
+            Featured Stories
+          </h4>
+          <div class="card mt-1 mb-3">
+            <a href="#"
+              ><img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1516199/elizabeth-warren-democratic-presidential-debate-college.jpg?w=397&h=265&q=90&f=7b03fb1bfc76894efed269f511b5cd89"
+                alt="Story Image"
+            /></a>
+            <div class="overlay">
+              <span class="overlay-text">U.S.</span>
+            </div>
+            <a class="card-title font-weight-bold mt-2 title-hover" href="#">
+              Elizabeth Warren Wins Over College Students During Democratic
+              Debate
+            </a>
+            <p class="card-text">
+              The 2020 election will be the first time many college students can
+              vote and Warren's plan for higher education could be a winning
+              point with them.
+            </p>
+          </div>
+
+          <div class="card my-3">
+            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be" alt="Story Image"/></a> 
+            <div class="overlay">
+              <span class="overlay-text">Analysis</span>
+            </div>
+            <a class="card-title font-weight-bold mt-2 title-hover" href="#">
+              The Newsweek Momentum Awards
+            </a>
+            <p class="card-text">
+              The Newsweek Momentum Awards will recognize five individuals
+              around the globe, as well as one city, which will be chosen as the
+              "smartest city in the world."
+            </p>
+          </div>
+
+          <div class="card my-3">
+            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1516014/tech-stocks-drag-stocks-down-sharply.jpg?w=397&h=265&q=90&f=650d6da452b00a55d3e845f66e50e7ff" alt="Story Image"/></a> 
+            <div class="overlay">
+              <span class="overlay-text">U.S.</span>
+            </div>
+            <a class="card-title font-weight-bold mt-2 title-hover" href="#"
+              >Americans Sour on Big Tech, Remain Deeply Divided on Key
+              Institutions</a
+            >
+            <p class="card-text">
+              Only 50 percent of adults think tech companies have a positive
+              impact on society, compared with 71 percent just four years ago.
+            </p>
+          </div>
+
+          <div class="card my-3">
+            <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1511669/spot-im-logo.png?w=397&h=265&q=90&f=fe63931482a6ab2a1825bd5559fc3c72" alt="Story Image"/></a> 
+            <div class="overlay">
+              <span class="overlay-text">Editor's Note</span>
+            </div>
+            <a class="card-title font-weight-bold mt-2 title-hover" href="#">
+              To Our Readers:
+            </a>
+            <p class="card-text">
+              We always want to hear from you, and to make that easier, we've
+              implemented a new commenting forum. Take a look at the bottom of
+              Newsweek articles. Spot.IM is a tool that helps readers respond to
+              our stories and communicate with one another—and with us. Ask us a
+              question, embed a GIF, point out a mistake. Be civil and
+              respectful, please. And most important: Be in touch.
+            </p>
+          </div>
+        </div>
+
+        <!-- TOP STORY -->
+        <div class="col-5">
+          <h4 class="title font-weight-bold text-uppercase section__header">
+            Top Story
+          </h4>
+
+          <div class="card my-2">
+            <a href="#"
+              ><img
+                class="card-img-top"
+                src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be"
+                alt="Story Image"
+            /></a>
+            <div class="overlay">
+              <span class="overlay-text">Analysis</span>
+            </div>
+            <a class="card-title font-weight-bold mt-2 title-hover" href="#"
+              >The Newsweek Momentum Awards</a
+            >
+            <p class="card-text">
+              The Newsweek Momentum Awards will recognize five individuals
+              around the globe, as well as one city, which will be chosen as the
+              "smartest city in the world."
+            </p>
+          </div>
+
+          <!-- CULTURE & TRAVEL -->
+          <div class="row culture">
+            <h4 class="title font-weight-bold text-uppercase section__header col-12 mb-0 mt-2 text-uppercase title">Culture & Travel</h4>
+            <div class="col-6 pl-0 mt-2 mb-5">
+              <div class="card culture__card">
+                <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1515696/genever.jpg?w=397&h=265&f=49859a5df7b0ceb2bcd2f8b4b7b9aa9a" alt="Story Image"/></a> 
+                <a class="card-title mt-3 p-2" href="#">
+                  7 Best Cocktail Bars in Los Angeles
+                </a>
+                <p class="card-text text-muted mt-n3 p-2">
+                  Los Angeles has quickly become one of the best cocktail cities
+                  in America and has the bars to prove it.
+                </p>
+                <button class="btn-culture mt-n3 ml-2">Cocktails</button>
+              </div>
+            </div>
+            <div class="col-6 pr-0 mt-2 mb-5">
+              <div class="card culture__card">
+                <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1514134/ancient-egypt-jewelry.png?w=397&h=265&f=82f483bef40556f0113fec07d2a5315b"
+                    alt="Story Image"/></a> 
+                <a class="card-title mt-3 p-2" href="#">
+                  Ancient Egypt: Underwater Archaeologists Find Temple Ruins in
+                  Sunken City
+                </a>
+                <p class="card-text text-muted mt-n3 p-2">
+                  Researchers also found treasures like jewelry and coins in the
+                  remains of ancient shipwrecks.
+                </p>
+                <button class="btn-culture mt-n3 ml-2">Acient Egypt</button>
+              </div>
+            </div>
+            <div class="col-6 pl-0 mt-2 mb-5">
+              <div class="card culture__card">
+                <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1515608/meteor-shooting-star.jpg?w=397&h=265&f=1f4f4b18d87b3236fdc25b0f5e94054d" alt="Story Image"/></a> 
+                <a class="card-title mt-3 p-2" href="#">
+                  Aquariid Southern Delta Meteor Shower: How to Watch Tonight
+                </a>
+                <p class="card-text text-muted mt-n3 p-2">
+                  Meteor showers are celestial events in which several shooting
+                  stars can be seen in the night sky, appearing to originate
+                  from a single point.
+                </p>
+                <button class="btn-culture mt-n3 ml-2">Meteor shower</button>
+              </div>
+            </div>
+            <div class="col-6 pr-0 mt-2 mb-5">
+              <div class="card culture__card">
+               <a href="#"><img class="card-img-top" src="https://d.newsweek.com/en/full/1513906/cul-books-01-748319631.jpg?w=397&h=265&f=a76b1f70348747e4d543c615e152e7f7" alt="Story Image"/></a> 
+                <a class="card-title mt-3 p-2" href="#">
+                  30 Last Chance Beach Reads for Summer 2019
+                </a>
+                <p class="card-text text-muted mt-n3 p-2">
+                  Dive into a new world of literature with Newsweek's top 30
+                  picks to read during these final lazy, hazy, crazy days of
+                  summer.
+                </p>
+                <button class="btn-culture mt-n3 ml-2">Books</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- MORE STORIES -->
+          <div class="stories mt-3">
+            <h4 class="title font-weight-bold text-uppercase">More Stories</h4>
+            <div class="d-flex stories__box">
+              <div class="mt-2">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1516146/us-representative-john-ratcliffe.jpg?w=135&h=90&f=178c75407a85d1a296fc527a30798524"
+                    alt="Person Image"
+                /></a>
+              </div>
+              <div>
+                <a class="stories__title font-weight-bold title-hover" href="#"
+                  >John Ratcliffe's Website Falsely Claimed He Had Won Terrorism
+                  Convictions</a
+                >
+                <p class="stories__text">
+                  There are question marks over the biography of President
+                  Donald Trump's pick for the nation's top intelligence post.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex stories__box">
+              <div class="mt-2">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1516161/hurricane-erick-latest-path-map.png?w=135&h=90&f=094f93fed84a56a26cccdfb47f8b544e"
+                    alt="Person Image"
+                /></a>
+              </div>
+              <div>
+                <a class="stories__title font-weight-bold title-hover" href="#"
+                  >Hurricanes Erick and Flossie Approach Hawaii</a
+                >
+                <p class="stories__text">
+                  Hurricane Erick will pass Hawaii on Friday bringing dangerous surf and higher than average sea waves.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex stories__box">
+              <div class="mt-2">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1516265/george-wallace-daughter-compares-him-trump.jpg?w=135&h=90&f=152e5d195b7b0a212659a2dd91c9fc31"
+                    alt="Person Image"
+                /></a>
+              </div>
+              <div>
+                <a class="stories__title font-weight-bold title-hover" href="#"
+                  >Daughter of Segregationist George Wallace Says Trump Worse Than Her Father</a
+                >
+                <p class="stories__text">
+                 "The two greatest motivators at (Dad's) rallies were fear and hate," said the daughter of George Wallace. "There was no policy solution, just white middle-class anger."
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex stories__box">
+              <div class="mt-2">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1516261/siberian-wildfire-smoke.jpg?w=135&h=90&f=c49c8443a46cabbac1f12a7ec9b0c807"
+                    alt="Person Image"
+                /></a>
+              </div>
+              <div>
+                <a class="stories__title font-weight-bold title-hover" href="#"
+                  >Vast Siberian Wildfires Are Sending Huge Clouds of Smoke to North America</a
+                >
+                <p class="stories__text">
+                    Russia has declared a state of emergency in several Siberian regions in response to the wildfires, which are burning an area of around 2.7 million hectares.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- OPINION -->
+        <div class="col">
+          <h4 class="title font-weight-bold text-uppercase section__header">
+            Opinion
+          </h4>
+          <div class="d-flex opinion__box">
+            <div class="mr-3">
+              <a href="#"
+                ><img
+                  src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77"
+                  alt="Person Image"
+              /></a>
+            </div>
+            <div>
+              <a class="opinion-title font-weight-bold" href="#"
+                >Boris Johnson Is Already Helping Make Britain Great Again</a
+              >
+              <p class="opinion-author font-weight-bold">BY NEWT GINGRICH</p>
+            </div>
+          </div>
+          <div class="d-flex opinion__box">
+            <div class="mr-3">
+              <a href="#"
+                ><img
+                  src="https://d.newsweek.com/en/full/109198/lee-habeeb.png?w=63&h=63&f=dd1164c722d99b834fc2f3f410f433d4"
+                  alt="Person Image"
+              /></a>
+            </div>
+            <div>
+              <a class="opinion-title font-weight-bold" href="#"
+                >Trump May Be Crude, but Baltimore Really Is Spiraling—That's
+                Why I Left</a
+              >
+              <p class="opinion-author font-weight-bold">BY LEE HABEEB</p>
+            </div>
+          </div>
+          <div class="d-flex opinion__box">
+            <div class="mr-3">
+              <a href="#"
+                ><img
+                  src="https://d.newsweek.com/en/full/110491/zhiqun-zhu.png?w=63&h=63&f=3197822cdd5dfc0b9707d2a7a81d53e3"
+                  alt="Person Image"
+              /></a>
+            </div>
+            <div>
+              <a class="opinion-title font-weight-bold" href="#"
+                >Hong Kong Crisis Leaves Little Appetite in Taiwan to Let China
+                Any Closer</a
+              >
+              <p class="opinion-author font-weight-bold">BBY ZHIQUN ZHU</p>
+            </div>
+          </div>
+          <div class="d-flex opinion__box">
+            <div class="mr-3">
+              <a href="#"
+                ><img
+                  src="https://d.newsweek.com/en/full/1515877/jeff-clements.png?w=63&h=63&f=3bf0202105aa780be072f9f440e85255"
+                  alt="Person Image"
+              /></a>
+            </div>
+            <div>
+              <a class="opinion-title font-weight-bold" href="#"
+                >Drain Big Money Out of Politics. Overturn Citizens United. Pass
+                the 28th</a
+              >
+              <p class="opinion-author font-weight-bold">BY JEFF CLEMENTS</p>
+            </div>
+          </div>
+          <div class="d-flex opinion__box">
+            <div class="mr-3">
+              <a href="#"
+                ><img
+                  src="https://d.newsweek.com/en/full/1515947/milan-moore.png?w=63&h=63&f=0b6fae907a42fe9c731f5941f3e88852"
+                  alt="Person Image"
+              /></a>
+            </div>
+            <div>
+              <a class="opinion-title font-weight-bold" href="#"
+                >Senate: You Can End HIV in America. It's on You</a
+              >
+              <p class="opinion-author font-weight-bold">
+                BY JESSE MILAN JR. & TERRANCE MOORE
+              </p>
+            </div>
+          </div>
+          <div class="d-flex opinion__box">
+            <div class="mr-3">
+              <a href="#"
+                ><img
+                  src="https://d.newsweek.com/en/full/106462/robert-walker.png?w=63&h=63&f=32ea83f1b038fbd9ed3672a1db3ffff0"
+                  alt="Person Image"
+              /></a>
+            </div>
+            <div>
+              <a class="opinion-title font-weight-bold" href="#"
+                >No, Air Conditioning Won't Save You From Global Warming</a
+              >
+              <p class="opinion-author font-weight-bold">BY ROBERT WALKER</p>
+            </div>
+          </div>
+
+          <!-- LATEST NEWS -->
+
+          <div class="latest">
+            <h4 class="title font-weight-bold text-uppercase">Latest News</h4>
+            <div class="d-flex latest__box">
+              <div class="mr-0">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1516201/green-stink-bug.jpg?w=397&h=265&f=01ab9f1be58dde961704b9fa960d146c"
+                    alt="Person Image"
+                /></a>
+              </div>
+              <div>
+                <a class="latest-title font-weight-bold" href="#"
+                  >Swarms of Stink Bugs Invade Southern Utah: 'Never Seen
+                  Anything Like This'</a
+                >
+              </div>
+            </div>
+            <div class="d-flex latest__box">
+              <div class="mr-0">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1516208/douyu-festival.jpg?w=397&h=265&f=fc004354ffd03b29189009b5fb7fcba4"
+                    alt="Person Image"
+                /></a>
+              </div>
+              <div>
+                <a class="latest-title font-weight-bold" href="#"
+                  >Popular 'Young' Chinese Vlogger's Filter Glitches, Reveals
+                  She's 58</a
+                >
+              </div>
+            </div>
+            <div class="d-flex latest__box">
+              <div class="mr-0">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1515933/hong-kong-protest.jpg?w=397&h=265&f=07efbd3ce6f2c71a7ff2d75bdeaf3414"
+                    alt="Person Image"
+                /></a>
+              </div>
+              <div>
+                <a class="latest-title font-weight-bold" href="#"
+                  >There's Only One Way the Crisis Here in Hong Kong Can Be
+                  Resolved</a
+                >
+              </div>
+            </div>
+            <div class="d-flex latest__box">
+              <div class="mr-0">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1516211/jed-hannah-bachelorette.jpg?w=397&h=265&l=0&t=0&f=328c2c4b22745a635775117d8b851057"
+                    alt="Person Image"
+                  />
+                </a>
+              </div>
+              <div>
+                <a class="latest-title font-weight-bold" href="#"
+                  >Bachelor Nation's Strong Opinions on Jed Wyatt after
+                  'Bachelorette' Finale</a
+                >
+              </div>
+            </div>
+            <div class="d-flex latest__box">
+              <div class="mr-0">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1516204/elizabeth-warren-john-delaney.jpg?w=397&h=265&f=f435f9d0a9390d52d3562cce787a2810"
+                    alt="Person Image"
+                /></a>
+              </div>
+              <div>
+                <a class="latest-title font-weight-bold" href="#"
+                  >John Delaney Tells Fox News Elizabeth Warren Uses 'Fairytale
+                  Economics'</a
+                >
+              </div>
+            </div>
+            <div class="d-flex latest__box">
+              <div class="mr-0">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1516197/southwest-airlines-flight-attendant.png?w=397&h=265&f=bef6c4b8f047e8effa7460c2f1051332"
+                    alt="Person Image"
+                /></a>
+              </div>
+              <div>
+                <a class="latest-title font-weight-bold" href="#"
+                  >Passengers Stunned by Flight Attendant Hiding in Overhead
+                  Compartment</a
+                >
+              </div>
+            </div>
+            <div class="d-flex latest__box">
+              <div class="mr-0">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1516182/samuel-mickey.jpg?w=397&h=265&f=cf917f6a17896c10b88cc0745b880d85"
+                    alt="Person Image"
+                /></a>
+              </div>
+              <div>
+                <a class="latest-title font-weight-bold" href="#"
+                  >Hidden Cameras Disguised As Phone Chargers Found in Rental
+                  Home's Bathroom</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="p-3 mt-3">
+            <div class="newsletter">
+              <div class="d-flex align-items-center">
+                <span class="news__icon"></span>
+                <p
+                  class="ml-2 text-uppercase news__title font-weight-bold align-self-center"
+                >
+                  Sign up for our newsletter
+                </p>
+              </div>
+              <div class="d-flex flex-column">
+                <a class="btn-news" href="#">Sign Up ></a>
+                <a class="mt-2 news__text font-weight-bold" href="#"
+                  >Update your preferences »</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
