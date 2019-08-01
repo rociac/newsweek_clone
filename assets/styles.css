@@ -270,3 +270,11 @@ body {
     font-size: 20px;
     line-height: 1;
 }
+
+.editor {
+    line-height: 1;
+}
+
+.lh {
+    line-height: 1.3;
+}
