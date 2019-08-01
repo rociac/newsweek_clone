@@ -235,9 +235,24 @@ body {
     height: 290px;
 }
 
+.btn-issue {
+    font-size: 18px;
+    background-color: #f4f5f6;
+    border-radius: 0;
+}
+
+.btn-issue:hover {
+    background-color: #dbdcdd;
+}
+
 .magazine-link {
     color: #F72210;
     font-size: 16px / 26px;
+}
+
+.magazine-link:hover {
+    color: #f72210;
+    text-decoration: none;
 }
 
 .magazine-span {
