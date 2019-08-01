@@ -232,7 +232,8 @@ body {
 }
 
 .img-height {
-    height: 290px;
+    height: 280px;
+    vertical-align: middle;
 }
 
 .btn-issue {
@@ -263,4 +264,5 @@ body {
 
 .magazine__title {
     font-size: 20px;
+    line-height: 1;
 }
