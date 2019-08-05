@@ -1,1 +1,1 @@
-# newsweek_clone
+# Newsweek Clone

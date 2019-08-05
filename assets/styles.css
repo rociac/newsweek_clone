@@ -34,10 +34,20 @@ ul {
     font-size: 18px;
 }
 
+.header__link:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .header__button {
     color: #F72210;
     background-color: white;
     font-size: 18px;
+}
+
+.header__button:hover {
+    color: #f72210;
+    text-decoration: none;
 }
 
 .bars {
