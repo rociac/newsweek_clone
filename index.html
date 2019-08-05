@@ -23,35 +23,39 @@
   <body>
     <!-- HEADER -->
     <header class="container p-0">
-      <div class="header__top d-flex justify-content-between">
-        <p>Wed, Jul 24</p>
-        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/640px-Newsweek_Logo.svg.png" alt="Newsweek logo" />
-        <div>
-          <a href="#">Sign in</a>
-          <a href="#">Subscribe ></a>
+      <div class="header__top d-flex justify-content-between align-items-center">
+        <p class="date ml-3 mt-5 d-none d-lg-block">Wed, Jul 24, 2019</p>
+        <img class="logo w-25 h-25 align-self-end" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/640px-Newsweek_Logo.svg.png" alt="Newsweek logo" />
+        <div class="mt-5 mb-2">
+          <a class="text-uppercase mr-3 header__link font-weight-bold" href="#">Sign in</a>
+          <a class="text-uppercase mr-3 header__button px-3 py-1 font-weight-bold" href="#">Subscribe  ></a>
+          <a class="d-lg-none mr-2" href="#"><i class="bars fas fa-bars"></i></a>
         </div>
       </div>
 
-      <nav class="header__bottom co">
-        <ul class="d-flex justify-content-between m-0 text-uppercase font-weight-bold p-0">
-          <li class="pr-2"><a class="text-dark border-link" href="#">U.S.</a></li>
-          <li class="pr-2"><a class="text-dark border-link" href="#">World</a></li>
-          <li class="pr-2"><a class="text-dark border-link" href="#">Business</a></li>
-          <li class="pr-2"><a class="text-dark border-link" href="#">Tech & Science</a></li>
-          <li class="pr-2"><a class="text-dark border-link" href="#">Culture</a></li>
-          <li class="pr-2"><a class="text-dark border-link" href="#">Sports</a></li>
-          <li class="pr-2"><a class="text-dark border-link" href="#">Health</a></li>
-          <li class="pr-2"><a class="text-dark border-link" href="#">Opinion</a></li>
-          <li><a class="text-dark" href="#">Vantage</a></li>
-          <li><input type="search" placeholder="Search" /></li>
+      <nav class="header__bottom d-none d-lg-block">
+        <ul class="d-flex justify-content-around font-weight-bold align-items-center m-0 w-100">
+          <li class="mt-2 pb-2"><a class="text-nav border-link" href="#">U.S.</a></li>
+          <li class="mt-2 pb-2"><a class="text-nav border-link" href="#">World</a></li>
+          <li class="mt-2 pb-2"><a class="text-nav border-link" href="#">Business</a></li>
+          <li class="mt-2 pb-2"><a class="text-nav border-link" href="#">Tech & Science</a></li>
+          <li class="mt-2 pb-2"><a class="text-nav border-link" href="#">Culture</a></li>
+          <li class="mt-2 pb-2"><a class="text-nav border-link" href="#">Sports</a></li>
+          <li class="mt-2 pb-2"><a class="text-nav border-link" href="#">Health</a></li>
+          <li class="mt-2 pb-2"><a class="text-nav border-link" href="#">Opinion</a></li>
+          <li class="mt-2 pb-2"><a class="text-nav" href="#">Vantage</a></li>
+          <li class="mt-2 pb-2">
+            <div class="d-flex flex-row-reverse w-100">
+              <input class="search" type="search" name="search" placeholder="Search" /></li>
+            </div>
         </ul>
       </nav>
     </header>
 
-    <main class="container mt-1">
+    <main class="container mt-px">
       <!-- NEWS SECTION -->
       <div class="row p-3">
-        <div class="col">
+        <div class="col-12 col-md col-lg">
           <h4 class="title font-weight-bold text-uppercase section__header">
             Featured Stories
           </h4>
@@ -141,7 +145,7 @@
         </div>
 
         <!-- TOP STORY -->
-        <div class="col-5">
+        <div class="col-12 col-md-7 col-lg-5">
           <h4 class="title font-weight-bold text-uppercase section__header">
             Top Story
           </h4>
@@ -334,7 +338,7 @@
         </div>
 
         <!-- OPINION -->
-        <div class="col">
+        <div class="col-12 col-lg ">
           <h4 class="title font-weight-bold text-uppercase section__header">
             Opinion
           </h4>
@@ -569,7 +573,7 @@
       <!-- MAGAZINE SECTION -->
       <section class="px-3">
         <div class="row">
-          <div class="col-3 card">
+          <div class="col-12 col-md-3 card">
             <a href="#"
               ><img
                 src="https://d.newsweek.com/en/full/1515144/august-2-2019-cover.jpg?w=360&h=480&q=90&f=688907d28478b09296692a14564fd1a0"
@@ -585,7 +589,7 @@
               >See all features ></a
             >
           </div>
-          <div class="col-9">
+          <div class="col-12 col-md-9">
             <div class="d-flex justify-content-center">
               <span class="news__icon"></span>
               <h4
@@ -597,7 +601,7 @@
             <hr class="mt-2" />
 
             <div class="row">
-              <div class="col card">
+              <div class="col-12 col-md card">
                 <a href="#"
                   ><img
                     src="https://d.newsweek.com/en/full/1513527/fe-hacking-01-banner.jpg?w=466&h=311&q=90&f=bb8ad2b1cbb975b8142c1886ab45ce50"
@@ -622,7 +626,7 @@
                   Vote?</a
                 >
               </div>
-              <div class="col card">
+              <div class="col-12 col-md card">
                 <a href="#"
                   ><img
                     src="https://d.newsweek.com/en/full/1513561/fe-hacking-sidebar-clarke.jpg?w=466&h=311&q=90&f=55896c1535394b3e315073b178ff1f20"
@@ -647,7 +651,7 @@
                   Disadvantage</a
                 >
               </div>
-              <div class="col card">
+              <div class="col-12 col-md card">
                 <a href="#"
                   ><img
                     src="https://d.newsweek.com/en/full/1505599/us-iran-history-shoot-down-plane.jpg?w=466&h=311&q=90&f=f7eea65b164e576dce360428a033ec83"
@@ -676,7 +680,7 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-3 card">
+          <div class="col-12 col-md card">
             <a href="#"
               ><img
                 src="https://d.newsweek.com/en/full/1513924/per-the-code-03-511574490.jpg?w=466&h=311&q=90&f=31b90e901ad3dbc556c772e49b2e1d8f"
@@ -700,7 +704,7 @@
               Landscape Forever</a
             >
           </div>
-          <div class="col-3 card">
+          <div class="col-12 col-md card">
             <a href="#"
               ><img
                 src="https://d.newsweek.com/en/full/1513906/cul-books-01-748319631.jpg?w=466&h=311&q=90&f=4d4f32656f2e4a794e1a4927e8f60fe4"
@@ -723,7 +727,7 @@
               >30 Last Chance Beach Reads for Summer 2019</a
             >
           </div>
-          <div class="col-3 card">
+          <div class="col-12 col-md card">
             <a href="#"
               ><img
                 src="https://d.newsweek.com/en/full/1513905/partingshot-stephaniedanler.jpg?w=466&h=311&q=90&f=60ac0710ba088a9e221a33622307c6ef"
@@ -746,7 +750,7 @@
               >30 Last Chance Beach Reads for Summer 2019</a
             >
           </div>
-          <div class="col-3 card">
+          <div class="col-12 col-md card">
             <a href="#"
               ><img
                 src="https://d.newsweek.com/en/full/1513894/after-deluge.jpg?w=480&h=320&q=90&f=4825b04cdf0a84fe86c9d36a6f886d43"
@@ -782,7 +786,7 @@
         </div>
         <hr class="mt-1" />
         <div class="row">
-          <div class="col-3 card mb-4">
+          <div class="col-12 col-md-6 col-lg-3 card mb-4">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -800,7 +804,7 @@
               demonstrators as they blocked parking lot entrances and exits.
             </p>
           </div>
-          <div class="col-3 card mb-4">
+          <div class="col-12 col-md-6 col-lg-3 card mb-4">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -820,7 +824,7 @@
               around 2.7 million hectares.
             </p>
           </div>
-          <div class="col-3 card mb-4">
+          <div class="col-12 col-md-6 col-lg-3 card mb-4">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -838,7 +842,7 @@
               One in 10 older people drink to excess, scientists believe.
             </p>
           </div>
-          <div class="col-3 card mb-4">
+          <div class="col-12 col-md-6 col-lg-3 card mb-4">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -860,7 +864,7 @@
         </div>
 
         <div class="row">
-          <div class="col-3 card mb-4">
+          <div class="col-12 col-md-6 col-lg-3 card mb-4">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -879,7 +883,7 @@
               attorney, Soha Saiyed.
             </p>
           </div>
-          <div class="col-3 card mb-4">
+          <div class="col-12 col-md-6 col-lg-3 card mb-4">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -898,7 +902,7 @@
               Vegas, Nevada and southern Idaho over recent weeks.
             </p>
           </div>
-          <div class="col-3 card mb-4">
+          <div class="col-12 col-md-6 col-lg-3 card mb-4">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -916,7 +920,7 @@
               making a racial slur.
             </p>
           </div>
-          <div class="col-3 card mb-4">
+          <div class="col-12 col-md-6 col-lg-3 card mb-4">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -947,7 +951,7 @@
         </div>
         <hr class="mt-1" />
         <div class="row">
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -964,7 +968,7 @@
               Avant Garde King Pierre Cardin Takes Brooklyn by Storm
             </a>
           </div>
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -981,7 +985,7 @@
               The Revamped Oscar de la Renta Is All the Rage
             </a>
           </div>
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1000,7 +1004,7 @@
           </div>
         </div>
         <div class="row mt-5 mb-4">
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1017,7 +1021,7 @@
               Under the Sea: A Diving Bucket List
             </a>
           </div>
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1035,7 +1039,7 @@
               Moon
             </a>
           </div>
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1057,11 +1061,11 @@
 
       <!-- CATEGORIES SECTION -->
       <!-- U.S SECTION -->
-      <section class="us px-3">
+      <section class="us px-lg-3">
         <hr />
         <h3 class="categories__header font-weight-bold mt-4">U.S</h3>
         <div class="row">
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1075,7 +1079,7 @@
             Trump 2020 Banner, Supporters Removed From Baltimore Orioles Game
             </a>
           </div>
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1089,7 +1093,7 @@
             University of Florida To Pay Conservative Student Group $66,000
             </a>
           </div>
-          <div class="col-4 d-flex flex-column">
+          <div class="col-12 col-md-4 d-flex flex-column">
             <div class="d-flex latest__box categories__news">
               <div class="mr-0">
                 <a href="#"
@@ -1137,11 +1141,11 @@
       </section>
 
       <!-- WORLD SECTION -->
-      <section class="us px-3">
+      <section class="us px-lg-3">
         <hr />
         <h3 class="categories__header font-weight-bold mt-4">World</h3>
         <div class="row">
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1155,7 +1159,7 @@
             Trump Gives Kim Jong Un Pass on Missiles Because He Has 'Beautiful Vision'
             </a>
           </div>
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1169,7 +1173,7 @@
             Tulsi Gabbard Accuses MSNBC Host of 'Talking Points' From Kamala Harris
             </a>
           </div>
-          <div class="col-4 d-flex flex-column">
+          <div class="col-12 col-md-4 d-flex flex-column">
             <div class="d-flex latest__box categories__news">
               <div class="mr-0">
                 <a href="#"
@@ -1217,11 +1221,11 @@
       </section>
 
       <!-- BUSINESS SECTION -->
-      <section class="us px-3">
+      <section class="us px-lg-3">
         <hr />
         <h3 class="categories__header font-weight-bold mt-4">U.S</h3>
         <div class="row">
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1235,7 +1239,7 @@
             Andrew Yang Net Worth: Democratic Candidate Promises $1,000 to All Adults
             </a>
           </div>
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1249,7 +1253,7 @@
             Ex-Federal Reserve Chair Janet Yellen Agrees With Trump: Cut Rates
             </a>
           </div>
-          <div class="col-4 d-flex flex-column">
+          <div class="col-12 col-md-4 d-flex flex-column">
             <div class="d-flex latest__box categories__news">
               <div class="mr-0">
                 <a href="#"
@@ -1297,7 +1301,7 @@
       </section>
 
       <!-- TECH & SCIENCIE SECTION -->
-      <section class="us px-3">
+      <section class="us px-lg-3">
         <hr />
         <h3 class="categories__header font-weight-bold mt-4">U.S</h3>
         <div class="row">
@@ -1377,11 +1381,11 @@
       </section>
 
       <!-- CULTURE SECTION -->
-      <section class="us px-3">
+      <section class="us px-lg-3">
         <hr />
         <h3 class="categories__header font-weight-bold mt-4">U.S</h3>
         <div class="row">
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1395,7 +1399,7 @@
             Kim Zolciak-Biermann Claims a Delta Agent Removed Her Kids From Plane
             </a>
           </div>
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1409,7 +1413,7 @@
             Drake's Surprise Compilation 'Care Package' Gets Fans in Their Feelings
             </a>
           </div>
-          <div class="col-4 d-flex flex-column">
+          <div class="col-12 col-md-4 d-flex flex-column">
             <div class="d-flex latest__box categories__news">
               <div class="mr-0">
                 <a href="#"
@@ -1461,7 +1465,7 @@
         <hr />
         <h3 class="categories__header font-weight-bold mt-4">U.S</h3>
         <div class="row">
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1475,7 +1479,7 @@
             Oakland A's Sign Man Who Threw 96 MPH Pitch in Stadium Challenge
             </a>
           </div>
-          <div class="col-4 card">
+          <div class="col-12 col-md-4 card">
             <a href="#"
               ><img
                 class="card-img-top"
@@ -1489,7 +1493,7 @@
             First AEW Women's Champion to be Crowned Soon
             </a>
           </div>
-          <div class="col-4 d-flex flex-column">
+          <div class="col-12 col-md-4 d-flex flex-column">
             <div class="d-flex latest__box categories__news">
               <div class="mr-0">
                 <a href="#"
@@ -1539,12 +1543,12 @@
      
     </main>
 
-    <footer class="container mt-1">
+    <footer class="container mt-px">
         <section class="subscribe px-3">
             <div class="row pt-5">
-              <div class="col-8">
+              <div class="col-12 col-lg-8">
                 <div class="h-100">
-                    <div class="subscribe__box d-flex align-items-center">
+                    <div class="subscribe__box d-flex align-items-center flex-md-row flex-column text-center text-md-left">
                         <img class="p-4" src="https://d.newsweek.com/en/full/1515144/august-2-2019-cover.jpg?w=170&q=95&f=f8d91303bdbdcfe3a6f274aea9b10043" alt="Subscribe photo">
                         <div class="pr-4">
                           <h4 class="card-title font-weight-bold">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
@@ -1555,7 +1559,7 @@
                       </div>
                     </div>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-lg-4">
                 <div class="h-100">
                     <div class="card rounded-0 px-0 text-center border">
                         <div class="row no-gutters">
@@ -1602,7 +1606,7 @@
       <hr class="mt-1">
       <!-- FOOTER BOTTOM -->
       <div class="row pb-4">
-        <div class="col-8">
+        <div class="col-12 col-md-8">
             <ul class="footer__list pl-3 clearfix">
                 <li><a class="float-left pr-2 mr-2 mt-2 border-link" href="#">About US</a></li>
                 <li><a class="float-left pr-2 mr-2 mt-2 border-link" href="#">Corrections</a></li>
@@ -1620,10 +1624,10 @@
               </ul>
         </div>
 
-        <div class="col-4">
+        <div class="col-12 col-md-4">
             <div class="d-flex justify-content-center">
                 <span>Editions:</span>
-                <ul class="d-flex footer__list pl-3">
+                <ul class="d-flex footer__list pl-3 w-100">
                   <li><a class="mr-2 pr-1 border-link" href="#">U.S. Edition</a></li>
                   <li><a class="mr-2 pr-1 border-link" href="#">日本</a></li>
                   <li><a class="mr-2 pr-1 border-link" href="#">한국</a></li>
